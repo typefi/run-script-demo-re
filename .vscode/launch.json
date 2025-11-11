@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
+            "name": "Run ExtendScript in InDesign 2025",
+            "hostAppSpecifier": "indesign-20.064",
+            "engineName": "main",
+        }
+    ]
+}
