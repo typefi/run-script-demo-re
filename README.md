@@ -26,4 +26,14 @@ RunScript Real Estate brochure demo
 
 ## S3
 
+Your S3 should look something like this:
+
 <img width="1572" height="760" alt="s3" src="https://github.com/user-attachments/assets/463d9669-107c-4f67-8f81-176cf484d199" />
+
+## House1
+
+<img width="750" height="970" alt="house1" src="https://github.com/user-attachments/assets/b7050977-9cab-4ab2-a293-235809b1f7b5" />
+
+## House2
+
+<img width="747" height="970" alt="house2" src="https://github.com/user-attachments/assets/a6cf8fef-5cc2-4c23-9991-b7454a20f194" />
