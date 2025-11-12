@@ -23,3 +23,7 @@ RunScript Real Estate brochure demo
 
 1. `$ npm run house1` should create the house1 PDF and open it locally
 2. `$ npm run house2` should create the house2 PDF and open it locally
+
+## S3
+
+<img width="1572" height="760" alt="s3" src="https://github.com/user-attachments/assets/463d9669-107c-4f67-8f81-176cf484d199" />
