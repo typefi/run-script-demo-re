@@ -4,6 +4,7 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
+            // "request": "attach",
             "name": "Run ExtendScript in InDesign 2025",
             "hostAppSpecifier": "indesign-20.064",
             "engineName": "main",

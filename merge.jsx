@@ -1,11 +1,7 @@
-// Get the current folder
-var scriptPath = $.fileName;
-var folder = scriptPath.substr(0, scriptPath.lastIndexOf("/")) + "/";
-
 // Get the paths to all the files we're working with
-var templateFilename = folder + "template.indd";
-var dataFilename = folder + "house1_data.csv";
-var pdfFilename = folder + "output.pdf";
+var templateFilename = "template.indd";
+var dataFilename = app.scriptArgs.getValue('DataFile');
+var pdfFilename = "output.pdf";
 
 // Open the InDesign document template
 var template = app.open(File(templateFilename));
@@ -24,8 +20,8 @@ dataMerge.mergeRecords();
 template.close(SaveOptions.NO);
 
 // Export the merged document to PDF
-var mergedDoc = app.activeDocument; // The newly merged document
-mergedDoc.exportFile(ExportFormat.PDF_TYPE, File(pdfFilename));
+var mergedDoc = app.documents[0]; // The newly merged document
+mergedDoc.exportFile(ExportFormat.PDF_TYPE, File(pdfFilename), app.pdfExportPresets.itemByName('[High Quality Print]'));
 
 // Close the merged document without saving changes
 mergedDoc.close(SaveOptions.NO);

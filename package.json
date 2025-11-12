@@ -1,0 +1,26 @@
+{
+  "name": "run-script-demo-re",
+  "version": "1.0.0",
+  "description": "RunScript Real Estate Demo",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "house1": "node run.js house1",
+    "house2": "node run.js house2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typefi/run-script-demo-re.git"
+  },
+  "author": "Ben Hauser",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/typefi/run-script-demo-re/issues"
+  },
+  "homepage": "https://github.com/typefi/run-script-demo-re#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.13.2",
+    "open": "^10.2.0"
+  }
+}
